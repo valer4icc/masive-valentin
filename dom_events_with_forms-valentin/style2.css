@@ -1,0 +1,18 @@
+input {
+  border: 1px solid #ccc;
+  padding: 8px;
+  margin-bottom: 5px;
+}
+input.valid {
+  border-color: green;
+}
+input.invalid {
+  border-color: red;
+}
+.hint {
+  font-size: 0.8em;
+  color: gray;
+}
+input.valid ~ .hint {
+  display: none;
+}
