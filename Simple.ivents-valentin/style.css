@@ -1,0 +1,8 @@
+/* trecia */
+#hoverBox {
+    background-color: #007BFF; 
+}
+
+#hoverBox:hover {
+    background-color: #FF5733; 
+}
